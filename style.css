@@ -3,7 +3,7 @@
              }
 
              body {
-                 background: url(AEOTPC/assets/images/background_001.jpg) no-repeat center center fixed;
+                 background: url(assets/images/background_001.jpg) no-repeat center center fixed;
                  -webkit-background-size: cover;
                  -moz-background-size: cover;
                  -o-background-size: cover;
@@ -173,7 +173,7 @@
              }
 
              .explaination_command:hover {
-                 background: url("AEOTPC/assets/images/background_000.jpg") no-repeat fixed center;
+                 background: url("assets/images/background_000.jpg") no-repeat fixed center;
                  background-size: 100%;
                  box-shadow: 0px 0px 20px 7px #101010;
 
@@ -289,7 +289,7 @@
 
                  height: 75px;
                  background-color: rgba(0, 0, 0, 0.6);
-                 background: url("AEOTPC/assets/images/background_000.jpg") no-repeat fixed center;
+                 background: url("assets/images/background_000.jpg") no-repeat fixed center;
                  background-size: 100%;
                  font-size: 23px;
                  color: #EFEFEF;
@@ -364,7 +364,7 @@
              .features_cards:hover {
 
                  height: 200px;
-                 background: url(AEOTPC/assets/images/background_000.jpg) no-repeat fixed center;
+                 background: url(assets/images/background_000.jpg) no-repeat fixed center;
              }
 
              .features_parent {
@@ -412,7 +412,7 @@
 
              .webkit_fix {
                  flex-direction: column;
-                 background: url(AEOTPC/assets/images/account_interface_blank.png) no-repeat;
+                 background: url(assets/images/account_interface_blank.png) no-repeat;
                  */background-size: 100%;
                  background-size: contain;
                  width: 325px;
@@ -492,7 +492,7 @@
 
 
              .butt {
-                 background-image: url("AEOTPC/assets/images/red_button.png");
+                 background-image: url("assets/images/red_button.png");
                  width: 200px;
                  height: 57px;
                  background-repeat: no-repeat;
@@ -509,23 +509,23 @@
              }
 
              .butt:hover {
-                 background-image: url("AEOTPC/assets/images/red_button_moused_over.png");
+                 background-image: url("assets/images/red_button_moused_over.png");
                  cursor: pointer;
                  text-shadow: 2px 2px #000000;
              }
 
 
              .butt:active {
-                 background-image: url("AEOTPC/assets/images/red_button_pressed.png");
+                 background-image: url("assets/images/red_button_pressed.png");
                  text-shadow: 2px 2px #000000;
              }
 
              .butt:disabled {
-                 background-image: url("AEOTPC/assets/images/red_button_broken.png");
+                 background-image: url("assets/images/red_button_broken.png");
              }
 
              .butt2 {
-                 background-image: url("AEOTPC/assets/images/green_button.png");
+                 background-image: url("assets/images/green_button.png");
                  width: 200px;
                  height: 57px;
                  background-repeat: no-repeat;
@@ -542,18 +542,18 @@
              }
 
              .butt2:hover {
-                 background-image: url("AEOTPC/assets/images/green_button_moused_over.png");
+                 background-image: url("assets/images/green_button_moused_over.png");
                  text-shadow: 2px 2px #000000;
                  cursor: pointer;
              }
 
              .butt2:active {
-                 background-image: url("AEOTPC/assets/images/green_button_pressed.png");
+                 background-image: url("assets/images/green_button_pressed.png");
                  text-shadow: 2px 2px #000000;
              }
 
              .butt2:disabled {
-                 background-image: url("AEOTPC/assets/images/red_button_broken.png");
+                 background-image: url("assets/images/red_button_broken.png");
                  text-shadow: 2px 2px #000000;
              }
 
@@ -723,7 +723,7 @@
              .logo {
                  width: 450px;
                  height: auto;
-                 content: url("AEOTPC/assets/images/logo.png");
+                 content: url("assets/images/logo.png");
                  opacity: 1;
                  position: absolute;
              }
@@ -746,7 +746,7 @@
 
 
              .logo_div {
-                 background-image: url("AEOTPC/assets/images/eotp.png");
+                 background-image: url("assets/images/eotp.png");
                  background-size: contain;
                  height: 120px;
                  width: 400px;
@@ -757,7 +757,7 @@
              }
 
              .logo_div:hover {
-                 background-image: url("AEOTPC/assets/images/eotp_hovered.png");
+                 background-image: url("assets/images/eotp_hovered.png");
 
              }
 
@@ -816,7 +816,7 @@
                  height: 35px;
                  padding: 2px 8px;
                  border: none;
-                 background: url(AEOTPC/assets/images/register_button.png) no-repeat;
+                 background: url(assets/images/register_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  color: #9affb9;
@@ -828,7 +828,7 @@
                  border: none;
                  height: 35px;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/login_button.png) no-repeat;
+                 background: url(assets/images/login_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 2px;
@@ -840,7 +840,7 @@
                  height: 35px;
                  border: none;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/download_button.png) no-repeat;
+                 background: url(assets/images/download_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 2px;
@@ -848,38 +848,38 @@
              }
 
              .register:hover {
-                 background: url(AEOTPC/assets/images/register_button_hover.png) no-repeat;
+                 background: url(assets/images/register_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .login:hover {
-                 background: url(AEOTPC/assets/images/login_button_hover.png) no-repeat;
+                 background: url(assets/images/login_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .download:hover {
-                 background: url(AEOTPC/assets/images/download_button_hover.png) no-repeat;
+                 background: url(assets/images/download_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
 
              .register:active {
-                 background: url(AEOTPC/assets/images/register_button_clicked.png) no-repeat;
+                 background: url(assets/images/register_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .login:active {
-                 background: url(AEOTPC/assets/images/login_button_clicked.png) no-repeat;
+                 background: url(assets/images/login_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .download:active {
-                 background: url(AEOTPC/assets/images/download_button_clicked.png) no-repeat;
+                 background: url(assets/images/download_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -887,18 +887,18 @@
              .papyrus {
                  width: 334px;
                  height: 195px;
-                 /*    content: url("AEOTPC/assets/images/papyrus_field_down.png");*/
+                 /*    content: url("assets/images/papyrus_field_down.png");*/
              }
 
              .papyrus_open {
                  width: 334px;
                  height: 195px;
-                 /*    content: url("AEOTPC/assets/images/papyrus_field_up2.png");*/
+                 /*    content: url("assets/images/papyrus_field_up2.png");*/
              }
 
              .papyrus_close {
                  position: absolute;
-                 background: url("AEOTPC/assets/images/papyrus_field_up_button.png") no-repeat;
+                 background: url("assets/images/papyrus_field_up_button.png") no-repeat;
                  background-size: contain;
                  width: 330px;
                  height: 70px;
@@ -909,7 +909,7 @@
 
 
              .papyrus_close:hover {
-                 background: url("AEOTPC/assets/images/papyrus_field_up_button_hover.png") no-repeat;
+                 background: url("assets/images/papyrus_field_up_button_hover.png") no-repeat;
                  background-size: contain;
                  width: 330px;
                  height: 100px;
@@ -926,7 +926,7 @@
 
 
              .Fancy_looking_button {
-                 background: url("AEOTPC/assets/images/leaderboards_button.png") no-repeat;
+                 background: url("assets/images/leaderboards_button.png") no-repeat;
                  background-size: contain;
                  width: 317px;
                  height: 85px;
@@ -942,7 +942,7 @@
              }
 
              .Fancy_looking_button:hover {
-                 background: url("AEOTPC/assets/images/leaderboards_button_hover.png") no-repeat;
+                 background: url("assets/images/leaderboards_button_hover.png") no-repeat;
                  background-size: contain;
                  width: 317px;
                  height: 85px;
@@ -951,7 +951,7 @@
 
 
              .Fancy_looking_button:active {
-                 background: url("AEOTPC/assets/images/leaderboards_button_clicked.png") no-repeat;
+                 background: url("assets/images/leaderboards_button_clicked.png") no-repeat;
                  background-size: contain;
                  width: 317px;
                  height: 85px;
@@ -970,7 +970,7 @@
              input {
                  width: 200px;
                  height: 30px;
-                 background: url("AEOTPC/assets/images/type_field.png");
+                 background: url("assets/images/type_field.png");
                  background-size: cover;
                  color: #dcc5a5;
                  border: 0;
@@ -1167,7 +1167,7 @@
              }
 
              .download_button {
-                 background: url("AEOTPC/assets/images/download_button.png") no-repeat;
+                 background: url("assets/images/download_button.png") no-repeat;
                  background-size: contain;
                  width: 270px;
                  height: 35px;
@@ -1177,7 +1177,7 @@
              }
 
              .download_button:hover {
-                 background: url("AEOTPC/assets/images/download_button_hover.png") no-repeat;
+                 background: url("assets/images/download_button_hover.png") no-repeat;
                  background-size: contain;
                  width: 270px;
                  height: 35px;
@@ -1187,7 +1187,7 @@
              }
 
              .download_button:active {
-                 background: url("AEOTPC/assets/images/download_button_clicked.png") no-repeat;
+                 background: url("assets/images/download_button_clicked.png") no-repeat;
                  background-size: contain;
                  width: 270px;
                  height: 35px;
@@ -1239,7 +1239,7 @@
                  border: none;
                  height: 35px;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/login_button.png) no-repeat;
+                 background: url(assets/images/login_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 2px;
@@ -1247,13 +1247,13 @@
              }
 
              .login_register:hover {
-                 background: url(AEOTPC/assets/images/login_button_hover.png) no-repeat;
+                 background: url(assets/images/login_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .login_register:active {
-                 background: url(AEOTPC/assets/images/login_button_clicked.png) no-repeat;
+                 background: url(assets/images/login_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -1265,7 +1265,7 @@
                  border: none;
                  height: 35px;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/register_button.png) no-repeat;
+                 background: url(assets/images/register_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 20px;
@@ -1274,13 +1274,13 @@
              }
 
              .submit_register:hover {
-                 background: url(AEOTPC/assets/images/register_button_hover.png) no-repeat;
+                 background: url(assets/images/register_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .submit_register:active {
-                 background: url(AEOTPC/assets/images/register_button_clicked.png) no-repeat;
+                 background: url(assets/images/register_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -1291,21 +1291,21 @@
 
                  text-align: left;
                  padding-left: 50px;
-                 background: url(AEOTPC/assets/images/login_button2.png) no-repeat;
+                 background: url(assets/images/login_button2.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  color: #9affb9;
              }
 
              .submit_button:hover {
-                 background: url(AEOTPC/assets/images/login_button_hover2.png) no-repeat;
+                 background: url(assets/images/login_button_hover2.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
 
              .submit_button:active {
-                 background: url(AEOTPC/assets/images/login_button_clicked2.png) no-repeat;
+                 background: url(assets/images/login_button_clicked2.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -1328,7 +1328,7 @@
              }
 
              .enter_button {
-                 background: url(AEOTPC/assets/images/login_button.png) no-repeat;
+                 background: url(assets/images/login_button.png) no-repeat;
                  width: 270px;
                  border: none;
                  height: 35px;
@@ -1341,29 +1341,29 @@
              }
 
              .enter_button:hover {
-                 background: url(AEOTPC/assets/images/login_button_hover.png) no-repeat;
+                 background: url(assets/images/login_button_hover.png) no-repeat;
                  background-size: contain;
              }
 
              .enter_button:active {
-                 background: url(AEOTPC/assets/images/login_button_clicked.png) no-repeat;
+                 background: url(assets/images/login_button_clicked.png) no-repeat;
                  background-size: contain;
              }
 
              .flux4 {
-                 background: url("AEOTPC/assets/images/account_interface_blank.png") no-repeat;
+                 background: url("assets/images/account_interface_blank.png") no-repeat;
                  background-size: 100%;
                  width: 325px;
              }
 
              /*  .flux4_asmo {
-             background: url("AEOTPC/assets/images/account_interface_asmo.png") no-repeat;
+             background: url("assets/images/account_interface_asmo.png") no-repeat;
              background-size: 100%;
              width: 325px;
          }
 
          .flux4_ely {
-             background: url("AEOTPC/assets/images/account_interface_elyos.png") no-repeat;
+             background: url("assets/images/account_interface_elyos.png") no-repeat;
              background-size: 100%;
              width: 325px;
          }
@@ -1372,26 +1372,26 @@
                  width: 45px;
                  height: 45px;
                  margin-left: -250px;
-                 background: url("AEOTPC/assets/images/icons/logo_race_none.png") no-repeat;
+                 background: url("assets/images/icons/logo_race_none.png") no-repeat;
                  background-size: contain;
                  display: inline-block;
                  margin-top: 15px;
-                 content: url("AEOTPC/assets/images/icons/icon_emblem_.png");
+                 content: url("assets/images/icons/icon_emblem_.png");
              }
 
              .icon_ely {
-                 background: url("AEOTPC/assets/images/icons/logo_race_none.png") no-repeat;
+                 background: url("assets/images/icons/logo_race_none.png") no-repeat;
                  width: 45px;
                  height: 45px;
                  margin-left: -250px;
                  background-size: contain;
                  display: inline-block;
                  margin-top: 15px;
-                 content: url("AEOTPC/assets/images/icons/icon_emblem_.png");
+                 content: url("assets/images/icons/icon_emblem_.png");
              }
 
              .icon_asmo {
-                 background: url("AEOTPC/assets/images/icons/logo_race_none.png") no-repeat;
+                 background: url("assets/images/icons/logo_race_none.png") no-repeat;
                  width: 45px;
                  height: 45px;
                  margin-left: -250px;
@@ -1399,7 +1399,7 @@
                  display: inline-block;
                  margin-top: 15px;
                  padding-bottom: 0px;
-                 content: url("AEOTPC/assets/images/icons/icon_emblem_.png");
+                 content: url("assets/images/icons/icon_emblem_.png");
              }
 
              .loggedin_username {
@@ -1425,7 +1425,7 @@
                  height: 30px;
                  margin-left: 10px;
                  margin-top: 20px;
-                 background: url("AEOTPC/assets/images/character_field.png") no-repeat;
+                 background: url("assets/images/character_field.png") no-repeat;
                  background-size: cover;
                  color: #dcc5a5;
                  display: flex;
@@ -1452,14 +1452,14 @@
                  width: 300px;
                  height: 30px;
                  margin-left: 10px;
-                 background: url("AEOTPC/assets/images/character_field.png") no-repeat;
+                 background: url("assets/images/character_field.png") no-repeat;
                  background-size: cover;
                  color: #dcc5a5;
              }
 
 
              .settings {
-                 background: url(AEOTPC/assets/images/download_button.png) no-repeat;
+                 background: url(assets/images/download_button.png) no-repeat;
                  width: 270px;
                  border: none;
                  height: 35px;
@@ -1470,18 +1470,18 @@
              }
 
              .settings:hover {
-                 background: url(AEOTPC/assets/images/download_button_hover.png) no-repeat;
+                 background: url(assets/images/download_button_hover.png) no-repeat;
                  background-size: contain;
              }
 
              .settings:active {
-                 background: url(AEOTPC/assets/images/download_button_clicked.png) no-repeat;
+                 background: url(assets/images/download_button_clicked.png) no-repeat;
                  background-size: contain;
              }
 
 
              .logout {
-                 background: url(AEOTPC/assets/images/logout_button.png) no-repeat;
+                 background: url(assets/images/logout_button.png) no-repeat;
                  width: 270px;
                  border: none;
                  height: 35px;
@@ -1493,12 +1493,12 @@
              }
 
              .logout:hover {
-                 background: url(AEOTPC/assets/images/logout_button_hover.png) no-repeat;
+                 background: url(assets/images/logout_button_hover.png) no-repeat;
                  background-size: contain;
              }
 
              .logout:active {
-                 background: url(AEOTPC/assets/images/logout_button_clicked.png) no-repeat;
+                 background: url(assets/images/logout_button_clicked.png) no-repeat;
                  background-size: contain;
              }
 
@@ -1572,7 +1572,7 @@
                  border: none;
                  height: 35px;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/settings_button.png) no-repeat;
+                 background: url(assets/images/settings_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 2px;
@@ -1580,13 +1580,13 @@
              }
 
              .support_button:hover {
-                 background: url(AEOTPC/assets/images/settings_button_hover.png) no-repeat;
+                 background: url(assets/images/settings_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .support_button:active {
-                 background: url(AEOTPC/assets/images/settings_button_clicked.png) no-repeat;
+                 background: url(assets/images/settings_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -1597,7 +1597,7 @@
                  border: none;
                  height: 35px;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/logout_button.png) no-repeat;
+                 background: url(assets/images/logout_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 2px;
@@ -1605,13 +1605,13 @@
              }
 
              .support_back_button:hover {
-                 background: url(AEOTPC/assets/images/logout_button_hover.png) no-repeat;
+                 background: url(assets/images/logout_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .support_back_button:active {
-                 background: url(AEOTPC/assets/images/logout_button_clicked.png) no-repeat;
+                 background: url(assets/images/logout_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -1622,7 +1622,7 @@
                  border: none;
                  height: 35px;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/logout_button.png) no-repeat;
+                 background: url(assets/images/logout_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 2px;
@@ -1630,13 +1630,13 @@
              }
 
              .support_back_button2:hover {
-                 background: url(AEOTPC/assets/images/logout_button_hover.png) no-repeat;
+                 background: url(assets/images/logout_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .support_back_button2:active {
-                 background: url(AEOTPC/assets/images/logout_button_clicked.png) no-repeat;
+                 background: url(assets/images/logout_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -1667,19 +1667,19 @@
 
 
              .submit_ticket:hover {
-                 background: url(AEOTPC/assets/images/register_button_hover.png) no-repeat;
+                 background: url(assets/images/register_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .submit_ticket:active {
-                 background: url(AEOTPC/assets/images/register_button_clicked.png) no-repeat;
+                 background: url(assets/images/register_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .submit_ticket:disabled {
-                 background: url(AEOTPC/assets/images/red_button_broken.png) no-repeat;
+                 background: url(assets/images/red_button_broken.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -1689,7 +1689,7 @@
                  border: none;
                  height: 35px;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/register_button.png) no-repeat;
+                 background: url(assets/images/register_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 2px;
@@ -1716,13 +1716,13 @@
 
 
              .bug_reports:active {
-                 background: url(AEOTPC/assets/images/register_button_clicked.png) no-repeat;
+                 background: url(assets/images/register_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .bug_reports:disabled {
-                 background: url(AEOTPC/assets/images/red_button_broken.png) no-repeat;
+                 background: url(assets/images/red_button_broken.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -1732,7 +1732,7 @@
                  border: none;
                  height: 35px;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/register_button.png) no-repeat;
+                 background: url(assets/images/register_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 2px;
@@ -1858,7 +1858,7 @@
              }
 
              .news_image {
-                 background-image: url("AEOTPC/assets/images/tiamat.png");
+                 background-image: url("assets/images/tiamat.png");
                  background-size: contain;
                  height: 250px;
                  width: 250px;
@@ -1866,7 +1866,7 @@
              }
 
              .papyrus_div {
-                 background-image: url("AEOTPC/assets/images/papyrus_field_down.png");
+                 background-image: url("assets/images/papyrus_field_down.png");
                  background-repeat: no-repeat;
                  background-size: contain;
                  width: 320px;
@@ -1881,7 +1881,7 @@
                  border: none;
                  height: 35px;
                  padding: 2px 8px;
-                 background: url(AEOTPC/assets/images/login_button.png) no-repeat;
+                 background: url(assets/images/login_button.png) no-repeat;
                  background-size: contain;
                  outline: 0;
                  margin-top: 2px;
@@ -1889,13 +1889,13 @@
              }
 
              .login_tests:hover {
-                 background: url(AEOTPC/assets/images/login_button_hover.png) no-repeat;
+                 background: url(assets/images/login_button_hover.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
 
              .login_tests:active {
-                 background: url(AEOTPC/assets/images/login_button_clicked.png) no-repeat;
+                 background: url(assets/images/login_button_clicked.png) no-repeat;
                  color: #f6ffae;
                  background-size: contain;
              }
@@ -1903,7 +1903,7 @@
 
 
              .papyrus_test_close {
-                 background: url("AEOTPC/assets/images/papyrus_field_up_button.png") no-repeat;
+                 background: url("assets/images/papyrus_field_up_button.png") no-repeat;
                  background-size: contain;
                  width: 330px;
                  height: 70px;
@@ -1914,7 +1914,7 @@
 
 
              .papyrus_test_close:hover {
-                 background: url("AEOTPC/assets/images/papyrus_field_up_button_hover.png") no-repeat;
+                 background: url("assets/images/papyrus_field_up_button_hover.png") no-repeat;
                  background-size: contain;
                  width: 330px;
                  height: 70px;
@@ -1969,7 +1969,7 @@
 
 
              .news_picture {
-                 background-image: url("AEOTPC/assets/images/tiamat.png");
+                 background-image: url("assets/images/tiamat.png");
                  background-size: contain;
                  background-repeat: no-repeat;
              }
@@ -2019,7 +2019,7 @@
              }
 
              .mid_three2 {
-                 background-image: url("AEOTPC/assets/images/2-mid.png");
+                 background-image: url("assets/images/2-mid.png");
                  background-repeat: no-repeat;
                  height: 230px;
                  width: 317px;
@@ -2028,7 +2028,7 @@
              }
 
              .discord_button {
-                 background: url("AEOTPC/assets/images/Discord_button.png");
+                 background: url("assets/images/Discord_button.png");
                  width: 50px;
                  height: 50px;
                  outline: 0;
@@ -2039,7 +2039,7 @@
              }
 
              .discord_button:hover {
-                 background: url("AEOTPC/assets/images/Discord_button_clicked.png");
+                 background: url("assets/images/Discord_button_clicked.png");
                  width: 50px;
                  height: 50px;
                  outline: 0;
@@ -2049,7 +2049,7 @@
              }
 
              .discord_button:active {
-                 background: url("AEOTPC/assets/images/Discord_button_clicked.png");
+                 background: url("assets/images/Discord_button_clicked.png");
                  width: 50px;
                  height: 50px;
                  outline: 0;
@@ -2071,12 +2071,12 @@
 
 
              .facebook_button:hover {
-                 background: url("AEOTPC/assets/images/flogo-Hex-RGB-MedGrey-512.png");
+                 background: url("assets/images/flogo-Hex-RGB-MedGrey-512.png");
                  background-size: contain;
              }
 
              .facebook_button:active {
-                 background: url("AEOTPC/assets/images/flogo-RGB-HEX-Blk-512.png");
+                 background: url("assets/images/flogo-RGB-HEX-Blk-512.png");
                  background-size: contain;
              }
 
@@ -2275,7 +2275,7 @@
 
 
              .dropped_button {
-                 background-image: url("AEOTPC/assets/images/sub_button2.png");
+                 background-image: url("assets/images/sub_button2.png");
                  color: #dcc5a5;
                  background-repeat: no-repeat;
                  background-size: 100%;
@@ -2294,12 +2294,12 @@
 
 
              .dropped_button:hover {
-                 background-image: url("AEOTPC/assets/images/sub_button2_hover.png");
+                 background-image: url("assets/images/sub_button2_hover.png");
                  color: #dcc5a5;
              }
 
              .dropped_button:active {
-                 background-image: url("AEOTPC/assets/images/sub_button2_pressed.png");
+                 background-image: url("assets/images/sub_button2_pressed.png");
                  color: #353535;
              }
 
@@ -2467,7 +2467,7 @@
              }
 
              .date_card:hover {
-                 background: url(../..AEOTPC/assets/images/background_000.jpg) no-repeat fixed center;
+                 background: url(../..assets/images/background_000.jpg) no-repeat fixed center;
              }
 
              .cool_list {
