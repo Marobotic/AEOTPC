@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <!-- Title -->
+    <title>Aion: 3.9 Echoes Of The Past</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/aeotp_logo_basic_v3.png">
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/strings.js"></script>
+    <script src="assets/js/csi.min.js"></script>
+    <!-- Phone support code -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metas -->
+    <meta property="og:title" content="Aion 3.9: Echoes Of The Past">
+    <meta property="og:description" name="description" content="Aion 3.9: Echoes of the past is a private server, dedicated to highlight the best parts of Aion. We believe that if this game has been handled with more care, it would have become far more enjoyable, far more addictive and even further more meaningful! The old…RENEWED!
+        Be the Hero to earn your wings and conquer Atreia, as this server allows you to experience full-content of the game. The game allows you to unfold your inner interests as this server’s goal is appealling to many types of different players">
+    <meta property="og:image" content="assets/images/AEOP_fb_cover.png">
+    <meta property="og:url" content="https://www.aioneotp.com/">
+</head>
+
+<body>
+    <center>
+        <a href="/">
+            <div class="top_logo_container">
+                <div class="logo_div"></div>
+            </div>
+        </a>
+    </center>
+    <div data-include="modules/navigation.html"></div>
+    <p class="error ode characters_button">Dual Manastones </p>
+    <p style="text-align: center;"> This site is a preview </p>
+    <div class="big_window">
+    <center>
+        <p style="text-align: left;">These are custom manastone drops from EOTP, the bundle selects a random manastone and drops it.
+            <br> NOTE: the bundles are no longer class based so you have to use the command for the manastones you want to drop!
+        </p>
+        <div class="donation_buttons">
+            <p class="big_text bundle_text">Select a bundle!</p>
+            <button class="medium starter_guide_button" id="attack" onclick="attack();">Attack</button>
+            <button class="medium starter_guide_button" id="crit" onclick="crit();">Crit</button>
+            <button class="medium starter_guide_button" id="magical" onclick="magical();">magical</button>
+        </div>
+        <p class="big_text bundle_text" id="bundle_text">No Bundle selected</p>
+        <div id="attack_bundle">
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Attack +5 / HP +50</p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Attack +5 / Accuracy +14</p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Attack +5 / Magical Acc +8</p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Attack +5 / Critical +9</p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px">Magical Acc +16 / Critical +9</p>
+            </div>
+        </div>
+        <div id="crit_bundle">
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Critical +19 / Hp +50</p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Critical +19 / Accuracy +14</p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Critical +19 / Magical Acc +8 </p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Critical +19 / Attack +2</p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px">Magical Acc +16 / Accuracy +14</p>
+            </div>
+        </div>
+        <div id="magical_bundle">
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Magic Boost +27 / Hp +50</p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Magic Boost +27 / Macc +8</p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Magical Acc +16 / Hp +50 </p>
+            </div>
+            <div class="reward_list">
+                <image src="http://aiondatabase.net/items/icon_item_magicstone_03.png" style="width:40px; height: 40px; margin-top: 10px"> </image>
+                <p style="margin-left: 25px"> Magical Acc +16 / MB +14</p>
+            </div>
+        </div>
+</div>
+</body>
+
+</html>
